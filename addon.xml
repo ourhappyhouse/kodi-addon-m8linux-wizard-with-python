@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.m8linux_wizard" name="M8Linux Leia Update Wizard" version="3.2" provider-name="TCC">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+		<summary lang="en">M8Linux Update Wizard</summary>
+        <description lang="en">Welcome to the M8Linux update Wizard. This will clean your system completely, leaving only the M8Linux Wizard behind. Once completed simply use the wizard again to update your system.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
